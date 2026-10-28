@@ -3,165 +3,109 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>I-Rieltor.uz: ko'chmas mulk auksionlari platformasi</title>
-  <meta name="description" content="I-Rieltor.uz: ko'chmas mulk auksionlari raqamli platformasi. Shaffof savdo, E-IMZO bilan imzolash, jonli takliflar." />
+  <title>I-Rieltor.uz: ko'chmas mulk auksionlari</title>
+  <meta name="description" content="I-Rieltor.uz: ko'chmas mulk auksionlari platformasi. Onlayn, shaffof, E-IMZO bilan. Investorlar uchun taqdimot." />
+  <meta name="theme-color" content="#0b1020" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="top">
-    <div class="wrap bar">
-      <a class="logo" href="#boshi">I-Rieltor<span>.uz</span></a>
-      <nav class="menu" id="menu" aria-label="Bo'limlar">
+  <div class="dark hero-wrap" id="boshi">
+    <header class="bar">
+      <a class="brand" href="#boshi"><span class="mark">iR</span><span class="name">I-Rieltor<span class="acc">.uz</span></span></a>
+      <nav class="nav" id="nav" aria-label="Bo'limlar">
         <a href="#muammo">Muammo</a>
-        <a href="#yechim">Yechim</a>
-        <a href="#qanday">Qanday ishlaydi</a>
-        <a href="#imkoniyat">Imkoniyatlar</a>
+        <a href="#mahsulot">Mahsulot</a>
         <a href="#holat">Holat</a>
-        <a href="#aloqa">Aloqa</a>
+        <a href="#yol">Yo'l xaritasi</a>
       </nav>
-      <button class="theme" id="theme" type="button" aria-label="Kun va tun rejimi">☾</button>
-      <button class="burger" id="burger" type="button" aria-label="Menyu" aria-expanded="false" aria-controls="menu">☰</button>
-    </div>
-  </header>
+      <a class="pill white" href="#aloqa">Bog'lanish</a>
+      <button class="burger" id="burger" type="button" aria-label="Menyu" aria-expanded="false" aria-controls="nav">☰</button>
+    </header>
 
-  <main id="boshi">
     <section class="hero">
-      <div class="wrap hero-grid">
-        <div>
-          <p class="eyebrow">Ko'chmas mulk auksionlari platformasi</p>
-          <h1>Mulk savdosi: <em>shaffof, tez va to'liq onlayn</em></h1>
-          <p class="lead">
-            Auksionga ariza berishdan g'olibni aniqlash va to'lovgacha bo'lgan butun yo'l bitta joyda.
-            Har bir qatnashuvchi elektron imzo bilan tasdiqlanadi, takliflar jonli ko'rinadi.
-          </p>
-          <div class="cta">
-            <a class="btn" href="#qanday">Qanday ishlashini ko'rish</a>
-            <a class="btn ghost" href="#demo">Jonli demo</a>
-          </div>
-        </div>
-        <div class="mock" aria-hidden="true">
-          <div class="mock-card">
-            <div class="mock-img"></div>
-            <div class="mock-body">
-              <span class="chip">Jonli auksion (namuna)</span>
-              <strong>3 xonali kvartira, Toshkent</strong>
-              <div class="bid"><span>Joriy taklif</span><b id="bid">420 000 000</b><small>so'm</small></div>
-              <div class="mock-row"><span>Qatnashuvchilar: 7</span><span>Tugashiga: <b id="timer">04:32</b></span></div>
-            </div>
-          </div>
+      <div>
+        <p class="eyebrow">Investorlar uchun · 2026</p>
+        <h1>Ko'chmas mulk auksionlari: onlayn, shaffof, E-IMZO bilan</h1>
+        <p class="lead">Obyektni topishdan g'olib to'loviga qadar bitta platformada: xaridorlar uchun sayt, operatorlar uchun boshqaruv paneli.</p>
+      </div>
+      <div class="shot" role="img" aria-label="Mahsulot skrinshoti uchun joy: auksion sahifasi">
+        <span class="shot-label">mahsulot skrinshoti · auksion sahifasi</span>
+        <div class="live">
+          <div class="live-top"><span class="dot"></span>Jonli taklif</div>
+          <div class="live-bid">1 380 000 000</div>
+          <div class="live-sub">so'm · Ishtirokchi #07</div>
         </div>
       </div>
     </section>
+  </div>
 
-    <section id="muammo" class="block">
-      <div class="wrap">
-        <h2>Muammo</h2>
-        <p class="sub">An'anaviy mulk auksionlarida xaridor ham, sotuvchi ham bir xil qiyinchilikka duch keladi.</p>
-        <div class="cards">
-          <article class="card"><h3>Ishonch yetishmaydi</h3><p>Takliflar kim tomonidan va qachon berilgani ko'pincha ochiq emas. Natijaga shubha tug'iladi.</p></article>
-          <article class="card"><h3>Qog'oz va navbat</h3><p>Ariza, zakalat va hujjatlar uchun idoraga borish kerak. Bu vaqt oladi va qatnashuvchilarni cheklaydi.</p></article>
-          <article class="card"><h3>Cheklangan qamrov</h3><p>E'lonlar tarqoq joylashgan, xaridorlar kerakli obyektni topa olmaydi. Natijada narx past qoladi.</p></article>
-        </div>
+  <main>
+    <section class="sec light" id="muammo">
+      <p class="kicker">Asosiy oqim</p>
+      <h2>Olti qadam: hammasi bitta joyda va hujjatlashtirilgan</h2>
+      <ol class="flow">
+        <li><span class="n">01</span><strong>Topish</strong><span>Katalog, filtr, qidiruv</span></li>
+        <li><span class="n">02</span><strong>Kirish</strong><span>E-IMZO yoki login</span></li>
+        <li><span class="n">03</span><strong>Ariza</strong><span>Hujjat va rozilik</span></li>
+        <li><span class="n">04</span><strong>Zakalat</strong><span>Kafolat to'lovi</span></li>
+        <li><span class="n">05</span><strong>Taklif</strong><span>Jonli, real vaqtda</span></li>
+        <li><span class="n">06</span><strong>G'olib</strong><span>Yakuniy to'lov</span></li>
+      </ol>
+    </section>
+
+    <section class="sec white" id="mahsulot">
+      <div class="duo">
+        <article class="panel soft">
+          <p class="kicker">Ochiq sayt</p>
+          <h3>Xaridorlar uchun: katalog, jonli auksion, kabinet</h3>
+          <div class="ph ph-light" role="img" aria-label="Skrinshot uchun joy: katalog">skrinshot · katalog</div>
+          <ul class="tags"><li>4 til</li><li>Kun / tun</li><li>SSR + SEO</li><li>Mobil</li></ul>
+        </article>
+        <article class="panel dark">
+          <p class="kicker">Admin panel</p>
+          <h3>Operatorlar uchun: obyekt, ariza, to'lov, audit</h3>
+          <div class="ph ph-dark" role="img" aria-label="Skrinshot uchun joy: bosh panel">skrinshot · bosh panel</div>
+          <ul class="tags"><li>Rollar</li><li>Audit jurnali</li><li>Bildirishnomalar</li><li>3 til</li></ul>
+        </article>
       </div>
     </section>
 
-    <section id="yechim" class="block alt">
-      <div class="wrap">
-        <h2>Yechim</h2>
-        <p class="sub">Bitta platforma: katalog, ariza, zakalat, jonli savdo va to'lov. Hammasi raqamli va kuzatib boriladigan.</p>
-        <div class="cards">
-          <article class="card"><div class="ico">🔐</div><h3>Elektron imzo</h3><p>Qatnashuvchi E-IMZO orqali tasdiqlanadi. Kirish va arizalar imzolanadi.</p></article>
-          <article class="card"><div class="ico">⚡</div><h3>Jonli takliflar</h3><p>Yangi taklif sahifani yangilamasdan hammaga bir zumda ko'rinadi.</p></article>
-          <article class="card"><div class="ico">🧾</div><h3>Zakalat va to'lov</h3><p>Zakalat to'lovi va g'olib hisobi tizim ichida yuritiladi, chek saqlanadi.</p></article>
-          <article class="card"><div class="ico">🌐</div><h3>To'rt tilda</h3><p>O'zbek (lotin va kirill), rus va ingliz tillarida interfeys.</p></article>
-        </div>
-      </div>
+    <section class="sec blue" id="holat">
+      <p class="kicker">Hozirgi holat</p>
+      <dl class="stats">
+        <div><dt>91 %</dt><dd>ochiq sayt tayyor: 107 bandning 97 tasi</dd></div>
+        <div><dt>371</dt><dd>birlik testi + brauzerlararo E2E</dd></div>
+        <div><dt>4</dt><dd>til: o'zbek (lotin, kirill), rus, ingliz</dd></div>
+        <div><dt>1</dt><dd>buyruq bilan ishga tushirish (Docker)</dd></div>
+      </dl>
     </section>
 
-    <section id="qanday" class="block">
-      <div class="wrap">
-        <h2>Qanday ishlaydi</h2>
-        <ol class="steps">
-          <li><b>1</b><div><h3>Obyektni toping</h3><p>Katalogda turi, narxi va joyi bo'yicha qidiring. Har bir obyektda rasmlar va to'liq ma'lumot bor.</p></div></li>
-          <li><b>2</b><div><h3>E-IMZO bilan kiring</h3><p>Elektron imzo bilan shaxsingiz tasdiqlanadi. Login va parol bilan ham kirish mumkin.</p></div></li>
-          <li><b>3</b><div><h3>Ariza va zakalat</h3><p>Auksionga ariza bering, zakalatni to'lang. Hammasi kabinetda ko'rinib turadi.</p></div></li>
-          <li><b>4</b><div><h3>Jonli savdo</h3><p>Taklif bering va boshqalarning takliflarini real vaqtda kuzating.</p></div></li>
-          <li><b>5</b><div><h3>G'olib va to'lov</h3><p>G'olib aniqlanadi, qolgan zakalatlar qaytariladi, to'lov kuzatiladi.</p></div></li>
-        </ol>
+    <section class="sec light road" id="yol">
+      <div>
+        <p class="kicker">Yo'l xaritasi</p>
+        <h2>Ishga tushirishgacha nima qoldi</h2>
+        <p class="note">Texnik qism tayyor; qolgan ishlar tashqi hamkorlar va shartnomalarga bog'liq.</p>
       </div>
-    </section>
-
-    <section id="imkoniyat" class="block alt">
-      <div class="wrap">
-        <h2>Imkoniyatlar</h2>
-        <div class="split">
-          <div>
-            <h3>Ochiq sayt (xaridorlar uchun)</h3>
-            <ul class="ticks">
-              <li>Katalog, filtr va qidiruv</li>
-              <li>Obyekt sahifasi, rasm galereyasi</li>
-              <li>Jonli auksion va takliflar tarixi</li>
-              <li>Shaxsiy kabinet: arizalar, zakalat, to'lovlar</li>
-              <li>Kun va tun rejimi, telefonga moslashgan dizayn</li>
-              <li>Qidiruv tizimlari uchun tayyor sahifalar</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Admin panel (operator uchun)</h3>
-            <ul class="ticks">
-              <li>Obyekt va auksionlarni boshqarish</li>
-              <li>Arizalar va hujjatlarni ko'rib chiqish</li>
-              <li>Foydalanuvchilar va rollar</li>
-              <li>Hisobotlar va hodisalar jurnali</li>
-              <li>Zakalat va to'lovlarni kuzatish</li>
-              <li>Ko'p tilli boshqaruv interfeysi</li>
-            </ul>
-          </div>
-        </div>
-        <h3 class="mt">Xavfsizlik va ishonchlilik</h3>
-        <div class="chips">
-          <span class="chip">E-IMZO</span><span class="chip">Rollarga asoslangan kirish</span><span class="chip">Himoyalangan so'rovlar</span>
-          <span class="chip">Avtomatik testlar</span><span class="chip">Zaxira nusxalar</span><span class="chip">Docker bilan ishga tushirish</span>
-        </div>
-      </div>
-    </section>
-
-    <section id="holat" class="block">
-      <div class="wrap">
-        <h2>Loyiha holati</h2>
-        <p class="sub">Asosiy platforma qurilgan va sinovdan o'tkazilgan. Qolgani: haqiqiy imzo serveri, to'lov tizimlari va domen.</p>
-        <div class="progress" role="img" aria-label="Ochiq sayt tayyorligi 91 foiz"><span style="width:91%"></span></div>
-        <p class="muted">Ochiq sayt: rejadagi 107 bandning 97 tasi bajarilgan (91 %).</p>
-        <div class="cards three">
-          <article class="card done"><h3>Tayyor</h3><ul><li>Backend API va ma'lumotlar bazasi</li><li>Admin panel</li><li>Ochiq sayt: katalog, auksion, kabinet</li><li>Jonli takliflar</li><li>To'rt til, kun/tun rejimi</li></ul></article>
-          <article class="card"><h3>Ishlamoqda</h3><ul><li>Haqiqiy E-IMZO serveri bilan ulash</li><li>E-IMZO Mobile</li><li>To'lov tizimlari</li></ul></article>
-          <article class="card"><h3>Keyingi qadam</h3><ul><li>Domen va HTTPS</li><li>Foydalanuvchilar bilan sinov</li><li>Ishga tushirish</li></ul></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="demo" class="block alt">
-      <div class="wrap">
-        <h2>Jonli demo</h2>
-        <p class="sub">Tizim shu kompyuterda ishlab turgan bo'lsa, quyidagi havolalar ochiladi.</p>
-        <div class="cta">
-          <a class="btn" id="d-site" href="http://localhost:8080/" target="_blank" rel="noopener">Ochiq saytni ochish</a>
-          <a class="btn ghost" id="d-admin" href="http://localhost:8081/" target="_blank" rel="noopener">Admin panelni ochish</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="aloqa" class="block">
-      <div class="wrap contact">
-        <h2>Hamkorlik uchun bog'laning</h2>
-        <p class="sub">Loyiha haqida batafsil gaplashish va demo ko'rsatish uchun murojaat qiling.</p>
-        <p class="contact-line"><a href="mailto:info@i-rieltor.uz">info@i-rieltor.uz</a></p>
-      </div>
+      <ul class="table">
+        <li><b>E-IMZO imzolash</b><span>Server shartnomasi va VPN kaliti</span><em class="st wait">Kutilmoqda</em></li>
+        <li><b>E-IMZO Mobile</b><span>Alohida integratsiya</span><em class="st wait">Rejada</em></li>
+        <li><b>Payme / Click</b><span>Kalitlar va test muhit</span><em class="st wait">Kutilmoqda</em></li>
+        <li><b>Domen va HTTPS</b><span>Domen tanlovi</span><em class="st wait">Kutilmoqda</em></li>
+        <li><b>Yangi dizayn</b><span>Maket tayyorlanmoqda</span><em class="st prog">Jarayonda</em></li>
+        <li><b>Admin panel va API</b><span>Barcha modullar</span><em class="st ok">Tayyor</em></li>
+      </ul>
     </section>
   </main>
 
-  <footer class="foot">
-    <div class="wrap"><span>© <span id="year">2026</span> I-Rieltor.uz</span><a href="#boshi">Yuqoriga ↑</a></div>
+  <footer class="dark cta" id="aloqa">
+    <h2>Platformani birga ishga tushiramiz</h2>
+    <div class="cta-btns">
+      <a class="pill accent" id="d-site" href="http://localhost:8080/" target="_blank" rel="noopener">Demo ko'rish</a>
+      <a class="pill line" href="mailto:invest@i-rieltor.uz">invest@i-rieltor.uz</a>
+    </div>
   </footer>
   <script src="script.js"></script>
 </body>
