@@ -6,7 +6,7 @@ Ochish: `index.html` ni brauzerda oching, yoki shu papkada `npx serve .` yoki `p
 
 Moslash:
 - Matnlar `index.html` da (o'zbek tilida).
-- Demo tugmasi: `#d-site` (hozir `http://localhost:8080/`). Server manzili chiqqach almashtiring.
+- Demo tugmasi: `#d-site` (hozir `http://localhost:8081/`). Server manzili chiqqach almashtiring.
 - Aloqa pochtasi: `invest@i-rieltor.uz` (haqiqiysiga almashtiring).
 - Skrinshot o'rinlari (`.shot`, `.ph`): haqiqiy rasm bilan almashtirish mumkin.
 - Ranglar va oraliqlar `styles.css` boshidagi `:root` da.
